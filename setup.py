@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Chest Cancer Classification"
+REPO_NAME = "Pneumonia-Diagnosis"
 AUTHOR_USER_NAME = "Rupesh-132"
-SRC_REPO = "Chest Cancer Classification"
+SRC_REPO = "Pneumonia-Diagnosis"
 AUTHOR_EMAIL = "rupeshkumarzs153@gmail.com"
 
 
@@ -17,7 +17,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="Application to detect carry pneumonia-Diagnosis",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
